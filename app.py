@@ -155,47 +155,8 @@ def send_file(filename):
 
 @app.route("/home")
 def home():
-    return render_template("home.html")
+    return render_template("flexindex.html")
  
-
-
-@app.route("/about")
-def about():
-    return render_template("about.html")
-
-
-@app.route("/cancer")
-def cancer():
-    return render_template("cancer.html")
-
-
-@app.route("/diabetes")
-def diabetes():
-    #if form.validate_on_submit():
-    return render_template("diabetes.html")
-
-@app.route("/heart")
-def heart():
-    return render_template("heart.html")
-
-
-@app.route("/liver")
-def liver():
-    #if form.validate_on_submit():
-    return render_template("liver.html")
-
-@app.route("/kidney")
-def kidney():
-    #if form.validate_on_submit():
-    return render_template("kidney.html")
-
-@app.route("/Malaria")
-def Malaria():
-    return render_template("index.html")
-
-@app.route("/Pneumonia")
-def Pneumonia():
-    return render_template("index2.html")
 
 
 """

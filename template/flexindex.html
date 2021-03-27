@@ -877,6 +877,53 @@
 
 
 
+
+  <header class="container">
+    <div id="left_m" class="col-md-3">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+      {% for category, message in messages %}
+      <div class="alert alert-{{ category }}">
+        {{ message }}
+      </div>
+      {% endfor %}
+      {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+    </div>
+
+
+    <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 20px;  text-transform: uppercase">Malaria Cell
+      Classification</h3>
+
+    <div style="text-align: center; margin-top: 20px">
+      <img style="max-width: 600px" src="{{ url_for('static', filename='malaria.jpg') }}" />
+    </div>
+
+    <form action="/upload" method="post" enctype="multipart/form-data"
+      style="margin-top: 30px; width: 80%; text-align: center; margin: auto;" onsubmit="showloading()">
+      <span class="btn btn-default btn-file">
+        Select Image <input type="file" name="image">
+      </span><br><br>
+      <input type="submit" value="Upload" class="btn btn-primary">
+    </form>
+   
+    
+    <div style="text-align: center">
+      <img id="loading_image" style="display: none" src="{{ url_for('static', filename='loading.gif')}}">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </header>
+
+
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
 

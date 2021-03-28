@@ -1,19 +1,18 @@
 {% extends "flexlayout.html" %}
 {% block body %}
 
-
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex align-items-center">
 
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap
+        <h1 data-aos="fade-up">This Website can predict 7 diseases with the help of Machine Learning Algorithms.</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">Click on the below button to get started
         </h2>
         <div data-aos="fade-up" data-aos-delay="600">
           <div class="text-center text-lg-start">
-            <a href="#about"
+            <a href="#services"
               class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center rounded-pill">
               <span>Get Started</span>
               <i class="bi bi-arrow-right"></i>
@@ -38,17 +37,16 @@
 
         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content">
-            <h3>Who We Are</h3>
-            <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti
-              reprehenderit.</h2>
+            <h3>Description</h3>
+            <h2>What this website can do ?</h2>
             <p>
-              Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur
-              itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              This website can predict Diabetes, Heart Disease, Kidney Disease, Liver Disease, Maleria, Pneumonia, Brest
+              cancer with the help of Machine Learning Algorithms.
             </p>
             <div class="text-center text-lg-start">
               <a href="#"
-                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Read More</span>
+                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center rounded-pill">
+                <span>See Symptoms</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -64,557 +62,791 @@
 
   </section><!-- End About Section -->
 
-  <!-- ======= Values Section ======= -->
-  <section id="values" class="values">
-
-    <div class="container" data-aos="fade-up">
-
-      <header class="section-header">
-        <h2>Our Values</h2>
-        <p>Odit est perspiciatis laborum et dicta</p>
-      </header>
-
-      <div class="row">
-
-        <div class="col-lg-4">
-          <div class="box" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{ url_for('static', filename='img/values-1.png') }}" class="img-fluid" alt="">
-            <h3>Ad cupiditate sed est odio</h3>
-            <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mt-4 mt-lg-0">
-          <div class="box" data-aos="fade-up" data-aos-delay="400">
-            <img src="{{ url_for('static', filename='img/values-2.png') }}" class="img-fluid" alt="">
-            <h3>Voluptatem voluptatum alias</h3>
-            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mt-4 mt-lg-0">
-          <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="{{ url_for('static', filename='img/values-3.png') }}" class="img-fluid" alt="">
-            <h3>Fugit cupiditate alias nobis.</h3>
-            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
-          </div>
-        </div>
-
-      </div>
-
+  <br>
+  <hr class="container" id="symptoms">
+  <br>
+  <div class="container" >
+    <h1>Details : </h1>
+    <h3>This is a basic machine learning and deep learning based medical app.</h3>
+    <p>The prediction about the disease is made with the help of the machine learning model which itself is trained on
+      the thousands of the datasets</p>
+    <p>So with the following paragraph I gonna be describing about the types of the diseases and their symptoms which gonna be getting
+      employed in this app.</p>
+    <h2>1. Breast Cancer </h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='breast.jpg') }}" />
     </div>
+    <br>
+    <p>Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the
+      breast, a change in breast shape, dimpling of the skin, fluid coming from the nipple, a newly inverted nipple, or
+      a red or scaly patch of skin.<br></p>
 
-  </section><!-- End Values Section -->
+    <h3>Symptoms</h3>
+    <p>Signs and symptoms of breast cancer may include:</p>
+    <ul>
+      <li>A breast lump or thickening that feels different from the surrounding tissue</li>
+      <li>Change in the size, shape or appearance of a breast
+      </li>
+      <li>
+        Changes to the skin over the breast, such as dimpling
+      </li>
+      <li>
+        A newly inverted nipple
+      </li>
+      <li>Peeling, scaling, crusting or flaking of the pigmented area of skin surrounding the nipple (areola) or breast
+        skin</li>
+      <li>Redness or pitting of the skin over your breast, like the skin of an orange</li>
+    </ul>
+    <h3>Causes</h3>
+    <p>Doctors know that breast cancer occurs when some breast cells begin to grow abnormally. These cells divide more
+      rapidly than healthy cells do and continue to accumulate, forming a lump or mass. Cells may spread (metastasize)
+      through your breast to your lymph nodes or to other parts of your body.<br>
+      Breast cancer most often begins with cells in the milk-producing ducts (invasive ductal carcinoma). Breast cancer
+      may also begin in the glandular tissue called lobules (invasive lobular carcinoma) or in other cells or tissue
+      within the breast.
+      <br>
+      Researchers have identified hormonal, lifestyle and environmental factors that may increase your risk of breast
+      cancer. But it's not clear why some people who have no risk factors develop cancer, yet other people with risk
+      factors never do. It's likely that breast cancer is caused by a complex interaction of your genetic makeup and
+      your environment.
+    </p>
+    <br>
+    <hr>
+    <br>
 
-  <!-- ======= Counts Section ======= -->
-  <section id="counts" class="counts">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row gy-4">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <div>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
-            <div>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-headset" style="color: #15be56;"></i>
-            <div>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-people" style="color: #bb0852;"></i>
-            <div>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hard Workers</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+    <h2>2. Diabetes</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='diabetes.jpg') }}" />
     </div>
-  </section><!-- End Counts Section -->
+    <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is
+      your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose
+      from food get into your cells to be used for energy.</p>
+    <h3>What health problems can people with diabetes develop? </h3>
+    <p>Over time, high blood glucose leads to problems such as</p>
 
-  <!-- ======= Features Section ======= -->
-  <section id="features" class="features">
+    <ul>
+      <li>heart disease</li>
+      <li>stroke</li>
+      <li>kidney disease</li>
+      <li>eye problems</li>
+      <li>dental disease</li>
+      <li>nerve damage</li>
+      <li>foot problems</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
 
-    <div class="container" data-aos="fade-up">
+    <h2>3.Heart Disease</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='heart.jpg') }}" />
+    </div>
+    <h3>Overview</h3>
+    <p>Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella
+      include blood vessel diseases, such as coronary artery disease; heart rhythm problems (arrhythmias); and heart
+      defects you're born with (congenital heart defects), among others.<br>
+      The term "heart disease" is often used interchangeably with the term "cardiovascular disease." Cardiovascular
+      disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart
+      attack, chest pain (angina) or stroke. Other heart conditions, such as those that affect your heart's muscle,
+      valves or rhythm, also are considered forms of heart disease.<br>
+      Many forms of heart disease can be prevented or treated with healthy lifestyle choices.</p>
 
-      <header class="section-header">
-        <h2>Features</h2>
-        <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-      </header>
+    <h3>Symptoms</h3>
+    <ul>
+      <li>Chest pain, chest tightness, chest pressure and chest discomfort (angina)</li>
+      <li>Shortness of breath</li>
+      <li>Pain, numbness, weakness or coldness in your legs or arms if the blood vessels in those parts of your body are
+        narrowed</li>
+      <li>Pain in the neck, jaw, throat, upper abdomen or back</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
 
-      <div class="row">
+    <h2>4.Liver Disease</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='liver.jpg') }}" />
+    </div>
+    <p>Liver disease is any disturbance of liver function that causes illness. The liver is responsible for many
+      critical functions within the body and should it become diseased or injured, the loss of those functions can cause
+      significant damage to the body. Liver disease is also referred to as hepatic disease.<br>
 
-        <div class="col-lg-6">
-          <img src="{{ url_for('static', filename='img/features.png') }}" class="img-fluid" alt="">
-        </div>
+      Liver disease is a broad term that covers all the potential problems that cause the liver to fail to perform its
+      designated functions. Usually, more than 75% or three quarters of liver tissue needs to be affected before a
+      decrease in function occurs.<br></p>
 
-        <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-          <div class="row align-self-center gy-4">
+    <h3>Symptoms</h3>
+    <p>Classic symptoms of liver disease include:</p>
+    <ul>
+      <li>nausea</li>
+      <li>vomiting</li>
+      <li>right upper quadrant abdominal pain, and </li>
+      <li>jaundice (a yellow discoloration of the skin due to elevated bilirubin concentrations in the bloodstream).
+      </li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>5.Kidney Disease</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='kidney.jpeg') }}" />
+    </div>
+    <h3>Overview</h3>
+    <p>The kidneys play key roles in body function, not only by filtering the blood and getting rid of waste products,
+      but also by balancing the electrolyte levels in the body, controlling blood pressure, and stimulating the
+      production of red blood cells.<br>
 
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Eos aspernatur rem</h3>
-              </div>
-            </div>
+      The kidneys are located in the abdomen toward the back, normally one on each side of the spine. They get their
+      blood supply through the renal arteries directly from the aorta and send blood back to the heart via the renal
+      veins to the vena cava. (The term "renal" is derived from the Latin name for kidney.)<br>
+    </p>
+    <ul>
+      <li>Lethargy</li>
+      <li> Weakness</li>
+      <li>Shortness of breath</li>
+      <li>Generalized swelling (edema)</li>
+      <li>Generalized weakness due to anemia</li>
+      <li>Loss of appetite</li>
+      <li>Lethargy</li>
+      <li>Fatigue</li>
+      <li>Congestive heart failure</li>
+      <li>Metabolic acidosis</li>
+      <li>High blood potassium (hyperkalemia)</li>
+      <li>Fatal heart rhythm disturbances (arrhythmias) including ventricular tachycardia and ventricular fibrillation
+      </li>
+      <li>
+        Rising urea levels in the blood (uremia) may lead to brain encephalopathy, pericarditis (inflammation of the
+        heart lining), or low calcium blood levels (hypocalcemia)</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>6.Malaria</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='malaria.jpg') }}" />
+    </div>
+    <h3>Overview</h3>
+    <p>
+      Malaria is a life-threatening mosquito-borne blood disease. The Anopheles mosquito transmits it to humans.</p><br>
+    <p>The parasites in mosquitos that spread malaria belong to the Plasmodium genus. Over 100 types of Plasmodium
+      parasite can infect a variety of species. Different types replicate at different rates, changing how quickly the
+      symptoms escalate, and the severity of the disease.</p>
+    <h3>Symptoms</h3>
+    <ul>
+      <li>fever and chills</li>
+      <li>impaired consciousness</li>
+      <li>prostration, or adopting a prone position
+        multiple convulsions</li>
+      <li>deep breathing and respiratory distress</li>
+      <li>abnormal bleeding and signs of anemia</li>
+      <li>clinical jaundice and evidence of vital organ dysfunction</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
 
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Facilis neque ipsa</h3>
-              </div>
-            </div>
+    <h2>7.Pneumonia</h2>
+    <div style="text-align: center; margin-top: 20px">
+      <img class="img-fluid" src="{{ url_for('static', filename='pneumonia.png') }}" />
+    </div>
+    <p>Pneumonia is an infection in one or both lungs. It can be caused by bacteria, viruses, or fungi. Bacterial
+      pneumonia is the most common type in adults. Pneumonia causes inflammation in the air sacs in your lungs, which
+      are called alveoli.
+    <p>
+    <h3>Symptopms</h3>
+    <p> Common symptoms include:</p>
+    <ul>
+      <li>cough</li>
+      <li>rusty or green phlegm, or sputum, coughed up from lungs
+        fever</li>
+      <li>fast breathing and shortness of breath</li>
+      <li>shaking chills</li>
+      <li>chest pain that usually worsens when taking a deep breath, known as pleuritic pain</li>
+      <li>fast heartbeat</li>
+      <li>fatigue and weakness</li>
+      <li>nausea and vomiting</li>
+      <li>diarrhea</li>
+      <li>sweating</li>
+      <li>headache</li>
+      <li>muscle pain</li>
+      <li>confusion or delirium, especially in older adults
+        dusky or purplish skin color, or cyanosis, from poorly oxygenated blood</li>
+    </ul>
+    <p>Symptoms can vary depending on other underlying conditions and the type of pneumonia.</p><br>
+  
+    <br>
+    <hr class="container">
+   
+    <br>
+  
 
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Volup amet voluptas</h3>
-              </div>
-            </div>
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
 
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Rerum omnis sint</h3>
-              </div>
-            </div>
+      <div class="container" data-aos="fade-up">
 
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Alias possimus</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Repellendus mollitia</h3>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div> <!-- / row -->
-
-      <!-- Feature Tabs -->
-      <div class="row feture-tabs" data-aos="fade-up">
-        <div class="col-lg-6">
-          <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
-
-          <!-- Tabs -->
-          <ul class="nav nav-pills mb-3">
-            <li>
-              <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
-            </li>
-            <li>
-              <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
-            </li>
-            <li>
-              <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
-            </li>
-          </ul><!-- End Tabs -->
-
-          <!-- Tab Content -->
-          <div class="tab-content">
-
-            <div class="tab-pane fade show active" id="tab1">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
-                consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
-                eveniet magni quaerat nemo et.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae
-                assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div><!-- End Tab 1 Content -->
-
-            <div class="tab-pane fade show" id="tab2">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
-                consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
-                eveniet magni quaerat nemo et.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae
-                assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div><!-- End Tab 2 Content -->
-
-            <div class="tab-pane fade show" id="tab3">
-              <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
-                consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-              </div>
-              <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
-                eveniet magni quaerat nemo et.</p>
-              <div class="d-flex align-items-center mb-2">
-                <i class="bi bi-check2"></i>
-                <h4>Incidunt non veritatis illum ea ut nisi</h4>
-              </div>
-              <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae
-                assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-            </div><!-- End Tab 3 Content -->
-
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-          <img src="{{ url_for('static', filename='img/features-2.png') }}" class="img-fluid" alt="">
-        </div>
-
-      </div><!-- End Feature Tabs -->
-
-      <!-- Feature Icons -->
-      <div class="row feature-icons" data-aos="fade-up">
-        <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+        <header class="section-header">
+          <h2>Our Values</h2>
+          <p>Odit est perspiciatis laborum et dicta</p>
+        </header>
 
         <div class="row">
 
-          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ url_for('static', filename='img/features-3.png') }}" class="img-fluid p-4" alt="">
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="{{ url_for('static', filename='img/values-1.png') }}" class="img-fluid" alt="">
+              <h3>Ad cupiditate sed est odio</h3>
+              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            </div>
           </div>
 
-          <div class="col-xl-8 d-flex content">
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="{{ url_for('static', filename='img/values-2.png') }}" class="img-fluid" alt="">
+              <h3>Voluptatem voluptatum alias</h3>
+              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="{{ url_for('static', filename='img/values-3.png') }}" class="img-fluid" alt="">
+              <h3>Fugit cupiditate alias nobis.</h3>
+              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="{{ url_for('static', filename='img/features.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
             <div class="row align-self-center gy-4">
 
-              <div class="col-md-6 icon-box" data-aos="fade-up">
-                <i class="ri-line-chart-line"></i>
-                <div>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Eos aspernatur rem</h3>
                 </div>
               </div>
 
-              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <i class="ri-stack-line"></i>
-                <div>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Facilis neque ipsa</h3>
                 </div>
               </div>
 
-              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                <i class="ri-brush-4-line"></i>
-                <div>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Volup amet voluptas</h3>
                 </div>
               </div>
 
-              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                <i class="ri-magic-line"></i>
-                <div>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Rerum omnis sint</h3>
                 </div>
               </div>
 
-              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                <i class="ri-command-line"></i>
-                <div>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Alias possimus</h3>
                 </div>
               </div>
 
-              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                <i class="ri-radar-line"></i>
-                <div>
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Repellendus mollitia</h3>
                 </div>
               </div>
 
             </div>
           </div>
 
-        </div>
+        </div> <!-- / row -->
 
-      </div><!-- End Feature Icons -->
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
 
-    </div>
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
+              </li>
+            </ul><!-- End Tabs -->
 
-  </section><!-- End Features Section -->
+            <!-- Tab Content -->
+            <div class="tab-content">
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
+              <div class="tab-pane fade show active" id="tab1">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
+                  consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
+                  eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
+                  molestiae
+                  assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+                </p>
+              </div><!-- End Tab 1 Content -->
 
-    <div class="container" data-aos="fade-up">
+              <div class="tab-pane fade show" id="tab2">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
+                  consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
+                  eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
+                  molestiae
+                  assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+                </p>
+              </div><!-- End Tab 2 Content -->
 
-      <header class="section-header">
-        <h2>Services</h2>
-        <p>This website can predict the following diseases listed below with the help of Machine Learning / Artificial Intelligence</p>
-      </header>
+              <div class="tab-pane fade show" id="tab3">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
+                  consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non
+                  eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure
+                  molestiae
+                  assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+                </p>
+              </div><!-- End Tab 3 Content -->
 
-      <div class="row gy-4">
+            </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-box blue">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Diabetes</h3>
-            <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+          </div>
+
+          <div class="col-lg-6">
+            <img src="{{ url_for('static', filename='img/features-2.png') }}" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+          <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="{{ url_for('static', filename='img/features-3.png') }}" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Ullamco laboris nisi</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Beatae veritatis</h4>
+                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Molestiae dolor</h4>
+                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Explicabo consectetur</h4>
+                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>This website can predict the following diseases listed below with the help of Machine Learning / Artificial
+            Intelligence</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Diabetes</h3>
+              <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
               tempore et consequatur.</p> -->
-            <a href="#diabetes" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#diabetes" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-box orange">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Heart Disease</h3>
-            <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Heart Disease</h3>
+              <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
               nesciunt dolorem.</p> -->
-            <a href="#heart" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#heart" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-box green">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Kidney Disease</h3>
-            <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Kidney Disease</h3>
+              <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos
               earum corrupti.</p> -->
-            <a href="#kidney" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#kidney" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-box red">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Liver Disease</h3>
-            <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Liver Disease</h3>
+              <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
               adipisci neque.</p> -->
-            <a href="#liver" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#liver" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-box purple">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Maleria</h3>
-            <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Maleria</h3>
+              <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
               alias eius labore.</p> -->
-            <a href="#maleria" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#maleria" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-          <div class="service-box blue">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Pneumonia</h3>
-            <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box blue">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Pneumonia</h3>
+              <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
               ducimus enim.</p> -->
-            <a href="#pneumonia" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#pneumonia" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-          <div class="service-box pink">
-            <i class="ri-hospital-line icon"></i>
-            <h3>Breast Cancer</h3>
-            <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="ri-hospital-line icon"></i>
+              <h3>Breast Cancer</h3>
+              <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
               ducimus enim.</p> -->
-            <a href="#breast" class="read-more"><span>Click here to predict</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#breast" class="read-more"><span>Click here to predict</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
+
         </div>
 
       </div>
 
+    </section><!-- End Services Section -->
+
+    <!-- Diabetes section started-->
+
+    <hr id="diabetes"><br>
+    <div class="mt-4" style=" margin: auto; text-align: center;">
+      <div class="container" class="form-group">
+        <h2>Predict Diabetes</h2>
+
+        <h3>Enter the Following parameters :</h3><br>
+        <form class="row" action="/" method="POST"
+          style="margin-top: 30px; width: 80%; text-align: center; margin: auto;" onsubmit="showloading()">
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="Pregnancies">Pregnancies : </label>
+              <br>
+              <input type="text" id="Pregnancies" name="Pregnancies">
+              <br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="Glucose">Glucose : </label><br>
+              <input type="text" id="Glucose" name="Glucose">
+              <br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="BloodPressure">BloodPressure : </label><br>
+              <input type="text" id="BloodPressure" name="BloodPressure">
+              <br><br>
+            </div>
+            <div class="form-group">
+              <label for="SkinThickness">SkinThickness : </label><br>
+              <input type="text" id="SkinThickness" name="SkinThickness">
+              <br><br>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="Insulin">Insulin : </label><br>
+              <input type="text" id="Insulin" name="Insulin">
+              <br><br>
+            </div>
+            <div class="form-group">
+              <label for="BMI">BMI : </label><br>
+              <input type="text" id="BMI" name="BMI">
+              <br><br>
+            </div>
+            <div class="form-group">
+              <label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction : </label><br>
+              <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
+              <br><br>
+            </div>
+            <div class="form-group">
+              <label for="Age">Age : </label><br>
+              <input type="text" id="Age" name="Age">
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="justify-content:center">
+            <input type="submit" type="button" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+          </div><br><br>
+        </form>
+
+        <h3> {{ prediction }}</h3>
+      </div>
     </div>
+    <br>
+    <hr id="heart" class="container">
+    <br>
 
-  </section><!-- End Services Section -->
+    <!-- Diabetes section ends-->
 
-  <!-- Diabetes section started-->
-
-  <hr id="diabetes"><br>
-  <div class="mt-4" style=" margin: auto; text-align: center;">
-    <div class="container" class="form-group">
-      <h2>Predict Diabetes</h2>
-
-      <h3>Enter the Following parameters :</h3><br>
-      <form class="row" action="/result" method="POST"
-        style="margin-top: 30px; width: 80%; text-align: center; margin: auto;" onsubmit="showloading()">
-
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="Pregnancies">Pregnancies : </label>
-            <br>
-            <input type="text" id="Pregnancies" name="Pregnancies">
-            <br>
-            <br>
+    <!-- Heart section started-->
+    <div class="container" class="form-group" style=" margin: auto; text-align: center;">
+      <h2>Predict Heart disease</h2>
+      <h3>Enter the Following parameters :</h3>
+      <div class="mt-4">
+        <form class="row" action="/result" method="POST">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="age">Age : </label><br>
+              <input type="text" id="age" name="age"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="sex">Sex(1:Male,0:Female) : </label><br>
+              <input type="text" id="sex" name="sex"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="chest pain type">Chest pain type : </label><br>
+              <input type="text" id="chest pain type" name="chest pain type"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="trestbps">Trestbps : </label><br>
+              <input type="text" id="trestbps" name="trestbps"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label><br>
+              <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl"><br>
+              <br>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="Glucose">Glucose : </label><br>
-            <input type="text" id="Glucose" name="Glucose">
-            <br>
-            <br>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="restecg">Restecg : </label><br>
+              <input type="text" id="restecg" name="restecg"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="thalach">Thalach : </label><br>
+              <input type="text" id="thalach" name="thalach"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="exang">Exang : </label><br>
+              <input type="text" id="exang" name="exang"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="oldpeak">Oldpeak : </label><br>
+              <input type="text" id="oldpeak" name="oldpeak"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="slope">Slope : </label><br>
+              <input type="text" id="slope" name="slope"><br>
+              <br>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="BloodPressure">BloodPressure : </label><br>
-            <input type="text" id="BloodPressure" name="BloodPressure">
-            <br><br>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="thal">Thal : </label><br>
+              <input type="text" id="thal" name="thal"><br>
+              <br>
+              <br>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="SkinThickness">SkinThickness : </label><br>
-            <input type="text" id="SkinThickness" name="SkinThickness">
-            <br><br>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="Insulin">Insulin : </label><br>
-            <input type="text" id="Insulin" name="Insulin">
-            <br><br>
-          </div>
-          <div class="form-group">
-            <label for="BMI">BMI : </label><br>
-            <input type="text" id="BMI" name="BMI">
-            <br><br>
-          </div>
-          <div class="form-group">
-            <label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction : </label><br>
-            <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
-            <br><br>
-          </div>
-          <div class="form-group">
-            <label for="Age">Age : </label><br>
-            <input type="text" id="Age" name="Age">
-            <br>
-            <br>
-          </div>
-        </div>
-        <div class="justify-content:center">
-          <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
-        </div><br><br>
-      </form>
+          <div class="justify-content:center">
+            <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+          </div><br><br>
+        </form>
+      </div>
     </div>
-  </div>
-  <br>
-  <hr id="heart">
-  <br>
-
-  <!-- Diabetes section ends-->
-
-  <!-- Heart section started-->
-  <div class="container" class="form-group" style=" margin: auto; text-align: center;">
-    <h2>Predict Heart disease</h2>
-    <h3>Enter the Following parameters :</h3>
-    <div class="mt-4">
-      <form class="row" action="/result" method="POST">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="age">Age : </label><br>
-            <input type="text" id="age" name="age"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="sex">Sex(1:Male,0:Female) : </label><br>
-            <input type="text" id="sex" name="sex"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="chest pain type">Chest pain type : </label><br>
-            <input type="text" id="chest pain type" name="chest pain type"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="trestbps">Trestbps : </label><br>
-            <input type="text" id="trestbps" name="trestbps"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label><br>
-            <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl"><br>
-            <br>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="restecg">Restecg : </label><br>
-            <input type="text" id="restecg" name="restecg"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="thalach">Thalach : </label><br>
-            <input type="text" id="thalach" name="thalach"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="exang">Exang : </label><br>
-            <input type="text" id="exang" name="exang"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="oldpeak">Oldpeak : </label><br>
-            <input type="text" id="oldpeak" name="oldpeak"><br>
-            <br>
-          </div>
-          <div class="form-group">
-            <label for="slope">Slope : </label><br>
-            <input type="text" id="slope" name="slope"><br>
-            <br>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="thal">Thal : </label><br>
-            <input type="text" id="thal" name="thal"><br>
-            <br>
-            <br>
-          </div>
-        </div>
-        <div class="justify-content:center">
-          <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
-        </div><br><br>
-      </form>
-    </div>
-  </div>
   </div><br>
-  <hr id="kidney">
+  <hr id="kidney" class="container">
   <br>
 
   <!-- heart section ends-->
@@ -700,7 +932,7 @@
       </form>
     </div>
   </div><br>
-  <hr id="liver">
+  <hr id="liver" class="container">
   <br>
   <!-- kindey section ends-->
 
@@ -777,7 +1009,7 @@
     </div>
   </div>
   </div><br>
-  <hr id="maleria">
+  <hr id="maleria" class="container">
   <br>
   <!-- Liver section ends-->
 
@@ -830,7 +1062,7 @@
   </header>
 
   <br>
-  <hr id="pneumonia">
+  <hr id="pneumonia" class="container">
   <br>
   <!-- Maleria section ends-->
 
@@ -867,7 +1099,7 @@
       crossorigin="anonymous"></script>
   </header>
   <br>
-  <hr id="breast">
+  <hr id="breast" class="container">
   <br>
   <!-- Pneumonia section ends-->
 
@@ -1040,7 +1272,7 @@
   </div>
   </div>
   <br>
-  <hr>
+  <hr class="container">
   <br></div>
 
   <!-- Brest section ends-->

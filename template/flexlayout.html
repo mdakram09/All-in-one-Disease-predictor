@@ -15,7 +15,9 @@
   <link href="{{ url_for('static', filename='img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -52,12 +54,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Developer</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
           <li class="dropdown"><a href="#"><span>Disease List</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              
+
               <li><a href="#diabetes" class="nav-link scrollto">Diabetes</a></li>
               <li><a href="#heart" class="nav-link scrollto">Heart Disease</a></li>
               <li><a href="#kidney" class="nav-link scrollto">Kidney</a></li>
@@ -67,8 +66,9 @@
               <li><a href="#breast" class="nav-link scrollto">Brest Cancer</a></li>
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="#team">Developer</a></li>          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto rounded-pill" href="#about" >Get Started</a></li>
+          <li><a class="getstarted scrollto rounded-pill" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -85,29 +85,31 @@
 
 
 
-  
-<!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
 
 
-  
 
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span><a href="https://mdakram09.netlify.app/" target="_blank">Md Akram Khan</a></span></strong>. All Rights Reserved
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span><a href="https://mdakram09.netlify.app/" target="_blank">Md Akram
+              Khan</a></span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        100% made in INDIA &nbsp &nbsp<img src="https://img.icons8.com/color/28/000000/india.png" />
+      </div>
     </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-      100% made in INDIA  &nbsp &nbsp<img src="https://img.icons8.com/color/28/000000/india.png"/>
-    </div>
-  </div>
-</footer><!-- End Footer -->
+  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>

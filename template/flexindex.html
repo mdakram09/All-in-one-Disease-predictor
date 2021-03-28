@@ -548,7 +548,7 @@
   <div class="container" id="breast">
     <h1>Details : </h1>
     <h3>Welcome</h3>
-    <form  action="/result" method="POST" >
+    <form action="/result" method="POST">
 
       <label for="Radius_mean">Radius_mean : </label>
       <input type="text" id="Radius_mean" name="Radius_mean">
@@ -680,186 +680,242 @@
   <br>
 
 
-<div class="mt-4" style=" margin: auto; text-align: center;">
-  <div class="container" class="form-group" id="diabetes">
-    <h2>Details Diabetes: </h2>
-    <h2>Welcome</h2>
-    <h3>Enter the Following parameters :</h3><br>
-    <form class="row" action="/result" method="POST" >
-      <div class="col-md-6">
-        <div class="form-group">
-      <label for="Pregnancies">Pregnancies : </label>
-      <br>
-      <input type="text" id="Pregnancies" name="Pregnancies">
-      <br>
-      <br></div>
-      <div class="form-group">
-      <label for="Glucose">Glucose : </label><br>
-      <input type="text" id="Glucose" name="Glucose">
-      <br>
-      <br></div>
-      <div class="form-group">
-      <label for="BloodPressure">BloodPressure : </label><br>
-      <input type="text" id="BloodPressure" name="BloodPressure">
-      <br><br></div>
-      <div class="form-group">
-      <label for="SkinThickness">SkinThickness : </label><br>
-      <input type="text" id="SkinThickness" name="SkinThickness">
-      <br><br></div></div>
-      <div class="col-md-6">
-        <div class="form-group">
-      <label for="Insulin">Insulin : </label><br>
-      <input type="text" id="Insulin" name="Insulin">
-      <br><br></div>
-      <div class="form-group">
-      <label for="BMI">BMI : </label><br>
-      <input type="text" id="BMI" name="BMI">
-      <br><br></div>
-      <div class="form-group">
-      <label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction : </label><br>
-      <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
-      <br><br></div>
-      <div class="form-group">
-      <label for="Age">Age : </label><br>
-      <input type="text" id="Age" name="Age">
-      <br>
-      <br></div></div>
-<div class="justify-content:center">
-      <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
-      
-      
-      </div><br><br>
-    </form>
 
 
+
+
+  <div class="mt-4" style=" margin: auto; text-align: center;">
+    <div class="container" class="form-group" id="diabetes">
+      <h2>Details Diabetes: </h2>
+      <h2>Welcome</h2>
+      <h3>Enter the Following parameters :</h3><br>
+      <form class="row" action="/result" method="POST">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Pregnancies">Pregnancies : </label>
+            <br>
+            <input type="text" id="Pregnancies" name="Pregnancies">
+            <br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="Glucose">Glucose : </label><br>
+            <input type="text" id="Glucose" name="Glucose">
+            <br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="BloodPressure">BloodPressure : </label><br>
+            <input type="text" id="BloodPressure" name="BloodPressure">
+            <br><br>
+          </div>
+          <div class="form-group">
+            <label for="SkinThickness">SkinThickness : </label><br>
+            <input type="text" id="SkinThickness" name="SkinThickness">
+            <br><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="Insulin">Insulin : </label><br>
+            <input type="text" id="Insulin" name="Insulin">
+            <br><br>
+          </div>
+          <div class="form-group">
+            <label for="BMI">BMI : </label><br>
+            <input type="text" id="BMI" name="BMI">
+            <br><br>
+          </div>
+          <div class="form-group">
+            <label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction : </label><br>
+            <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
+            <br><br>
+          </div>
+          <div class="form-group">
+            <label for="Age">Age : </label><br>
+            <input type="text" id="Age" name="Age">
+            <br>
+            <br>
+          </div>
+        </div>
+        <div class="justify-content:center">
+          <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+        </div><br><br>
+      </form>
+    </div>
   </div>
-</div>
-<br>
-<hr>
-<br>
+  <br>
+  <hr>
+  <br>
 
 
 
 
 
-  <div class="container" class="form-group" id="heart">
+  <div class="container" class="form-group" id="heart" style=" margin: auto; text-align: center;">
     <h2>Details Heart: </h2>
     <h2>Welcome</h2>
     <h3>Enter the Following parameters :</h3>
-    <form action="/result" method="POST">
-      <label for="age">Age : </label>
-      <input type="text" id="age" name="age">
-      <br>
-
-      <label for="sex">Sex(1:Male,0:Female) : </label>
-      <input type="text" id="sex" name="sex">
-      <br>
-
-      <label for="chest pain type">Chest pain type : </label>
-      <input type="text" id="chest pain type" name="chest pain type">
-      <br>
-
-      <label for="trestbps">Trestbps : </label>
-      <input type="text" id="trestbps" name="trestbps">
-      <br>
-
-      <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label>
-      <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl">
-      <br>
-
-      <label for="restecg">Restecg : </label>
-      <input type="text" id="restecg" name="restecg">
-      <br>
-
-      <label for="thalach">Thalach : </label>
-      <input type="text" id="thalach" name="thalach">
-      <br>
-
-      <label for="exang">Exang : </label>
-      <input type="text" id="exang" name="exang">
-      <br>
-
-      <label for="oldpeak">Oldpeak : </label>
-      <input type="text" id="oldpeak" name="oldpeak">
-      <br>
-
-      <label for="slope">Slope : </label>
-      <input type="text" id="slope" name="slope">
-      <br>
-
-      <label for="thal">Thal : </label>
-      <input type="text" id="thal" name="thal">
-      <br>
-      <br>
-
-      <input type="submit" value="Submit"><br><br>
-    </form>
-
-
+    <div class="mt-4">
+      <form class="row" action="/result" method="POST">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="age">Age : </label><br>
+            <input type="text" id="age" name="age"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="sex">Sex(1:Male,0:Female) : </label><br>
+            <input type="text" id="sex" name="sex"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="chest pain type">Chest pain type : </label><br>
+            <input type="text" id="chest pain type" name="chest pain type"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="trestbps">Trestbps : </label><br>
+            <input type="text" id="trestbps" name="trestbps"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label><br>
+            <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl"><br>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="restecg">Restecg : </label><br>
+            <input type="text" id="restecg" name="restecg"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="thalach">Thalach : </label><br>
+            <input type="text" id="thalach" name="thalach"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="exang">Exang : </label><br>
+            <input type="text" id="exang" name="exang"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="oldpeak">Oldpeak : </label><br>
+            <input type="text" id="oldpeak" name="oldpeak"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="slope">Slope : </label><br>
+            <input type="text" id="slope" name="slope"><br>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="thal">Thal : </label><br>
+            <input type="text" id="thal" name="thal"><br>
+            <br>
+            <br>
+          </div>
+        </div>
+        <div class="justify-content:center">
+          <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+        </div><br><br>
+      </form>
+    </div>
   </div>
+  </div><br>
+  <hr>
+  <br>
 
 
 
-  <div class="container" ,class="form-group" id="kidney">
+
+
+  <div class="container" ,class="form-group" id="kidney" style=" margin: auto; text-align: center;">
     <h2>Details : </h2>
     <h2>Welcome</h2>
     <h3>Enter the Following parameters :</h3>
-    <form action="/result" method="POST">
-      <label for="age">Age : </label>
-      <input type="text" id="age" name="age">
-      <br>
+    <div class="mt-4">
+      <form class="row" action="/result" method="POST">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="age">Age : </label><br>
+            <input type="text" id="age" name="age"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="bp">B.P : </label><br>
+            <input type="text" id="bp" name="bp"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="al">A.L : </label><br>
+            <input type="text" id="al" name="al"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="pcc">P.C.C : </label><br>
+            <input type="text" id="pcc" name="pcc"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="bgr">B.G.R: </label><br>
+            <input type="text" id="bgr" name="bgr"><br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="bu">B.U : </label><br>
+            <input type="text" id="bu" name="bu"><br>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="form-group">
+              <label for="sc">S.C : </label><br>
+              <input type="text" id="sc" name="sc"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="hemo">HEMO : </label><br>
+              <input type="text" id="hemo" name="hemo"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="pcv">PCV : </label><br>
+              <input type="text" id="pcv" name="pcv"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="htn">HTN: </label><br>
+              <input type="text" id="htn" name="htn"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="dm">D.M : </label><br>
+              <input type="text" id="dm" name="dm"><br>
+              <br>
+            </div>
+            <div class="form-group">
+              <label for="appet">Appet: </label><br>
+              <input type="text" id="appet" name="appet">
+            </div>
+          </div>
+        </div><br>
+        <br>
+        <br>
+        <div class="justify-content:center">
+          <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+        </div><br><br>
+      </form>
+    </div>
+  </div><br>
+  <hr>
+  <br>
 
-      <label for="bp">B.P : </label>
-      <input type="text" id="bp" name="bp">
-      <br>
-
-      <label for="al">A.L : </label>
-      <input type="text" id="al" name="al">
-      <br>
-
-      <label for="pcc">P.C.C : </label>
-      <input type="text" id="pcc" name="pcc">
-      <br>
-
-      <label for="bgr">B.G.R: </label>
-      <input type="text" id="bgr" name="bgr">
-      <br>
-
-      <label for="bu">B.U : </label>
-      <input type="text" id="bu" name="bu">
-      <br>
-
-      <label for="sc">S.C : </label>
-      <input type="text" id="sc" name="sc">
-      <br>
-
-
-      <label for="hemo">HEMO : </label>
-      <input type="text" id="hemo" name="hemo">
-      <br>
-
-      <label for="pcv">PCV : </label>
-      <input type="text" id="pcv" name="pcv">
-      <br>
-
-      <label for="htn">HTN: </label>
-      <input type="text" id="htn" name="htn">
-      <br>
-
-      <label for="dm">D.M : </label>
-      <input type="text" id="dm" name="dm">
-      <br>
-
-      <label for="appet">Appet: </label>
-      <input type="text" id="appet" name="appet">
-      <br>
-      <br>
-
-      <input type="submit" value="Submit"><br><br>
-    </form>
-
-
-  </div>
 
 
 
@@ -985,7 +1041,7 @@
       <input type="submit" value="Upload" class="btn btn-primary">
     </form>
 
-   
+
     <div style="text-align: center">
       <img id="loading_image" style="display: none" src="{{ url_for('static', filename='loading.gif')}}">
     </div>

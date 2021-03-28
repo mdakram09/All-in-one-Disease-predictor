@@ -706,7 +706,7 @@
         <h2>Predict Diabetes</h2>
 
         <h3>Enter the Following parameters :</h3><br>
-        <form class="row" action="/" method="POST"
+        <form class="row" action="/result" method="POST"
           style="margin-top: 30px; width: 80%; text-align: center; margin: auto;" onsubmit="showloading()">
 
           <div class="col-md-6">
@@ -758,11 +758,9 @@
             </div>
           </div>
           <div class="justify-content:center">
-            <input type="submit" type="button" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit">
+            <input type="submit" class="btn btn-primary rounded-pill" style="min-width: 200px;" value="Submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
           </div><br><br>
         </form>
-
-        <h3> {{ prediction }}</h3>
       </div>
     </div>
     <br>

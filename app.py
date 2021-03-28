@@ -218,7 +218,7 @@ def ValuePredictor(to_predict_list, size):
         result =loaded_model.predict(to_predict)
     return result[0]
 
-@app.route('/',methods = ["POST"])
+@app.route('/result',methods = ["POST"])
 def result():
     if request.method == 'POST':
         to_predict_list = request.form.to_dict()
@@ -239,10 +239,10 @@ def result():
         elif(len(to_predict_list)==10):
             result = ValuePredictor(to_predict_list,10)
     if(int(result)==1):
-        prediction='Sorry ! Suffering'
+        prediction='Sorry ! you are Suffering'
     else:
         prediction='Congrats ! you are Healthy' 
-    return(render_template("flexindex.html", prediction=prediction))
+    return(render_template("result.html", prediction=prediction))
 
 
 if __name__ == "__main__":

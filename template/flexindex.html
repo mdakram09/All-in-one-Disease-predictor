@@ -544,11 +544,11 @@
 
   <!-- End Pricing Section -->
 
-<hr><br>
+<hr id="diabetes"><br>
   <div class="mt-4" style=" margin: auto; text-align: center;">
-    <div class="container" class="form-group" id="diabetes">
-      <h2>Details Diabetes: </h2>
-      <h2>Welcome</h2>
+    <div class="container" class="form-group" >
+      <h2>Predict Diabetes</h2>
+      
       <h3>Enter the Following parameters :</h3><br>
       <form class="row" action="/result" method="POST" style="margin-top: 30px; width: 80%; text-align: center; margin: auto;" onsubmit="showloading()">
         
@@ -607,15 +607,14 @@
     </div>
   </div>
   <br>
-  <hr>
+  <hr id="heart">
   <br>
 
 
 
 
-  <div class="container" class="form-group" id="heart" style=" margin: auto; text-align: center;">
-    <h2>Details Heart: </h2>
-    <h2>Welcome</h2>
+  <div class="container" class="form-group"  style=" margin: auto; text-align: center;">
+    <h2>Predict Heart disease</h2>
     <h3>Enter the Following parameters :</h3>
     <div class="mt-4">
       <form class="row" action="/result" method="POST">
@@ -688,16 +687,16 @@
     </div>
   </div>
   </div><br>
-  <hr>
+  <hr id="kidney">
   <br>
 
 
 
 
 
-  <div class="container" ,class="form-group" id="kidney" style=" margin: auto; text-align: center;">
-    <h2>Details : </h2>
-    <h2>Welcome</h2>
+  <div class="container" ,class="form-group"  style=" margin: auto; text-align: center;">
+    <h2>Predict Kidney Disease</h2>
+    
     <h3>Enter the Following parameters :</h3>
     <div class="mt-4">
       <form class="row" action="/result" method="POST">
@@ -774,7 +773,7 @@
       </form>
     </div>
   </div><br>
-  <hr>
+  <hr id="liver">
   <br>
 
 
@@ -783,9 +782,9 @@
 
 
  
-  <div class="container" ,class="form-group" id="liver" style=" margin: auto; text-align: center;">
-    <h2>Details : </h2>
-    <h2>Welcome</h2>
+  <div class="container" ,class="form-group"  style=" margin: auto; text-align: center;">
+    <h2>Predict Liver Disease</h2>
+    
     <h3>Enter the Following parameters :</h3>
     <div class="mt-4">
     <form class="row" action="/result" method="POST">
@@ -838,13 +837,13 @@
     </form>
 </div></div>
   </div><br>
-  <hr>
+  <hr id="maleria">
   <br>
 
 
 
 
-  <header class="container" id="maleria">
+  <header class="container" >
     <div id="left_m" class="col-md-3">
       {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
@@ -859,7 +858,7 @@
     </div>
 
 
-    <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 20px;  text-transform: uppercase">Malaria Cell
+    <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 20px;  text-transform: uppercase">Predict Malaria by Cell
       Classification</h3>
 
     <div style="text-align: center; margin-top: 20px">
@@ -890,13 +889,13 @@
   </header>
 
   <br>
-  <hr>
+  <hr id="pneumonia">
   <br>
 
 
 
-  <header class="container" id="pneumonia">
-    <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 20px;  text-transform: uppercase">Pneumonia
+  <header class="container" >
+    <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 20px;  text-transform: uppercase">Predict Pneumonia by 
       X-Ray Classification</h3>
 
     <div style="text-align: center; margin-top: 20px">
@@ -926,15 +925,15 @@
       crossorigin="anonymous"></script>
   </header>
   <br>
-  <hr>
+  <hr id="breast">
   <br>
 
 
 
   <div class="mt-4" style=" margin: auto; text-align: center;">
-    <div class="container" id="breast">
-      <h1>Details : </h1>
-      <h3>Welcome</h3>
+    <div class="container" >
+      <h1>Predict Brest Cancer </h1>
+      <h3>Enter the Following parameters :</h3>
       <form class="row" action="/result" method="POST">
         <div class="col-md-6">
           <div class="form-group">
